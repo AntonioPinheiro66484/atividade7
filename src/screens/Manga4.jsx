@@ -3,7 +3,7 @@ import React from 'react';
 import { View, Text, Button, ImageBackground, StyleSheet } from 'react-native';
 
 
-function Screen4({ navigation }) {
+function Manga4({ navigation }) {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
           <Text>Mangá - Fate Stay Night Apocrypha</Text>
@@ -23,4 +23,4 @@ const styles = StyleSheet.create({
     height: '100%',
   },
 });
-export default Screen4;
+export default Manga4;

@@ -3,7 +3,7 @@ import React from 'react';
 import { View, Text, Button, ImageBackground, StyleSheet } from 'react-native';
 
 
-function Screen3({ navigation }) {
+function Manga3({ navigation }) {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
           <Text>Mangá - Blue Lock</Text>
@@ -23,4 +23,4 @@ const styles = StyleSheet.create({
     height: '100%',
   },
 });
-export default Screen3;
+export default Manga3;

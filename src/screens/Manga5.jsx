@@ -3,7 +3,7 @@ import React from 'react';
 import { View, Text, Button, ImageBackground, StyleSheet } from 'react-native';
 
 
-function Screen5({ navigation }) {
+function Manga5({ navigation }) {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
           <Text>Mangá - Yu-Gi-Oh Duel Monsters</Text>
@@ -23,4 +23,4 @@ const styles = StyleSheet.create({
     height: '100%',
   },
 });
-export default Screen5;
+export default Manga5;

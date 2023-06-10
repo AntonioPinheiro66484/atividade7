@@ -2,7 +2,7 @@
 import React from 'react';
 import { View, Text, Button, ImageBackground, StyleSheet } from 'react-native';
 
-function Screen1({ navigation }) {
+function Manga1({ navigation }) {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
           <Text>Mangá - Chain Saw</Text>
@@ -22,4 +22,4 @@ const styles = StyleSheet.create({
     height: '100%',
   },
 });
-export default Screen1;
+export default Manga1;
